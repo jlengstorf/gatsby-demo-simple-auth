@@ -2,10 +2,10 @@
   background: lightgrey;
   font-size: 87.5%;
   padding: 0.25rem;
+}
 
-  &__text {
-    margin: 0 auto;
-    max-width: 640px;
-    text-align: right;
-  }
+.status__text {
+  margin: 0 auto;
+  max-width: 640px;
+  text-align: right;
 }
