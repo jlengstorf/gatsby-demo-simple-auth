@@ -9,6 +9,8 @@ The short version is:
 * Logged out users are redirected to the login page if they attempt to visit private routes
 * Logged in users will see their private content
 
-## Deploy
+## A Note About Security
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jlengstorf/gatsby-demo-simple-auth)
+This example is less about creating an example of secure, production-ready authentication, and more about showing Gatsby's ability to support dynamic content in client-only routes.
+
+For production-ready authentication solutions, take a look at [Auth0](https://auth0.com) or [Passport.js](http://www.passportjs.org/). Rolling a custom auth system is hard and likely to have security holes. Auth0 and Passport.js are both battle tested and widely used.
